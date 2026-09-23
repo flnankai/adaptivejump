@@ -1,0 +1,23 @@
+Package: adaptivejump
+Type: Package
+Title: Adaptive Jump Tests for High-Frequency Financial Data
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Huifang", family = "Ma", role = "aut"),
+    person(given = "Long", family = "Feng", email = "flnankai@users.noreply.github.com",
+           role = c("aut", "cre"))
+    )
+Description: Implements the adaptive jump-testing procedures in Ma and Feng,
+    \"Adaptive Test for Jump\".  The package provides the frictionless
+    Ait-Sahalia--Jacod power-variation test, the Lee--Mykland max test, their
+    Cauchy combination, and noise-robust pre-averaged and local-average
+    extensions.  It also supplies simulation data-generating processes and
+    utilities for regular-session intraday data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -1,0 +1,6 @@
+^\.git$
+^\.github$
+^\.Rhistory$
+^\.DS_Store$
+^README\.Rmd$
+^cran-comments\.md$
